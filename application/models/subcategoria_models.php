@@ -20,7 +20,7 @@ where
         and p.idCategoria = '$data'
 group by sc.idSubCategoria order by sc.Descripcion";
 
-
+echo $sql;
    $query = $this->db->query($sql);
    
    return $query;
