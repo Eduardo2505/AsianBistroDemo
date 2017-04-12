@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://asianbistro.pvessy.com/AsianBistro/';
+$config['base_url']	= 'http://asianbistro.pvessy.com/AsianBistroDemo/';
 
 /*
 |--------------------------------------------------------------------------
