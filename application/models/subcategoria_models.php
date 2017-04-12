@@ -17,7 +17,7 @@ from
 where
     p.idSubCategoria = sc.idSubCategoria
         and p.idCategoria = '$data'
-group by sc.Nombre
+group by sc.idSubCategoria
 order by sc.Descripcion");//limit 0,20
    
    return $query;

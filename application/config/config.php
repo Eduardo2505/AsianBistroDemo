@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://disfracesenventa.com/AsianBistro/';
+$config['base_url']	= 'http://asianbistro.pvessy.com/AsianBistro/';
 
 /*
 |--------------------------------------------------------------------------
@@ -69,7 +69,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'spanish';
+$config['language']	= 'english';
 
 /*
 |--------------------------------------------------------------------------

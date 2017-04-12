@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'essy_root';
-$db['default']['password'] = 'Eduardo25%';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'seiter';
 $db['default']['database'] = 'essy_asianvistro';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['port']  = '3306';  
