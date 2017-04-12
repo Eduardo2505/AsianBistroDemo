@@ -9,7 +9,8 @@ class Subcategoria_models extends CI_Model {
 
 
   function mostrar($data){ 
-   $query = $this->db->query("select 
+
+$sql="select 
     sc.idSubCategoria as idSubCategoria, sc.Nombre as Nombre
 from
     producto p,
@@ -17,8 +18,10 @@ from
 where
     p.idSubCategoria = sc.idSubCategoria
         and p.idCategoria = '$data'
-group by sc.idSubCategoria
-order by sc.Descripcion");//limit 0,20
+group by sc.idSubCategoria order by sc.Descripcion";
+
+
+   $query = $this->db->query($sql);
    
    return $query;
  }
