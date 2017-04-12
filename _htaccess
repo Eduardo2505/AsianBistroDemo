@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|css|fonts|img|inc|js|style|email|files|robots\.txt)
+RewriteRule ^(.*)$ /AsianBistro/index.php/$1 [L]
+
