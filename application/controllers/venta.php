@@ -66,7 +66,6 @@ class Venta extends CI_Controller {
     public function Subcategiras($valor = FALSE) {
         $this->load->model('subcategoria_models');
         $data['idCategoria'] = $valor;
-        echo "XXXXX";
         $data['subcategorias'] = $this->subcategoria_models->mostrar($valor);
         $this->load->view('venta/subCategoriasMenu', $data);
     }

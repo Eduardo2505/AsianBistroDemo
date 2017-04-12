@@ -17,13 +17,12 @@ from
     subcategoria sc
 where
     p.idSubCategoria = sc.idSubCategoria
-        and p.idCategoria = '$data'
-group by sc.idSubCategoria order by sc.Descripcion";
+        and p.idCategoria = '$data' group by sc.idSubCategoria order by sc.Descripcion";
 
 echo $sql;
-   $query = $this->db->query($sql);
+  // $query = $this->db->query($sql);
    
-   return $query;
+   //return $query;
  }
 
  function subcategiria($idsubCategoria){
